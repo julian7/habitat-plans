@@ -1,0 +1,1 @@
+{{pkg.path}}/bin/goiardi -c {{pkg.svc_config_path}}/goiardi.conf 2>&1
