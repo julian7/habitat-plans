@@ -1,0 +1,17 @@
+slaves="127.0.0.1/8"
+
+[api]
+enabled=false
+key=""
+
+[webserver]
+enabled=true
+webpass=""
+
+[pgsql]
+host="localhost"
+port="5432"
+dbname="pdns"
+user="pdns"
+password=""
+

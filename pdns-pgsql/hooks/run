@@ -1,0 +1,5 @@
+#!/bin/sh
+
+env
+cat $pkg_svc_config_path/pdns.conf
+exec $pkg_svc_path/sbin/pdns -c $pkg_svc_config_path/pdns.conf
